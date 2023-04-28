@@ -1,0 +1,237 @@
+html{
+  min-height: 100%;
+}
+body{
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  flex: 6;
+  min-height: 100vh;
+  color: #e4e2e2;
+}
+
+.nav{
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  background-color: rgb(1, 35, 58);
+}
+.profile{
+  display: flex;
+  justify-content: space-around;
+
+}
+.profile img {
+  width: 12em;
+  height: 12em;
+  margin-top: 10px;
+  border-radius: 50%;
+ 
+}
+.main{
+  flex: 4;
+  background-color: rgb(233, 231, 231);
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.links{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+.links>a{
+  color: #e4e2e2;
+  margin: .5em 0;
+  font-size: 1em;
+  text-decoration: none;
+  font-family: 'Century Gothic';
+}
+.links>a:active{
+  color: orangered;
+}
+.footer{
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 1em;
+}
+hr{
+  width: 80%;
+}
+
+/* Home CSS */
+
+.home{
+  display: flex;
+  flex-direction: row;
+  flex: 2;
+}
+
+.header{
+  margin: auto;
+  padding-left: 2em;
+  flex: 2;
+}
+.what{
+  color: rgb(1, 35, 58);
+  font-size: 3em;
+}
+
+.languages{
+  font-size: 1.5em;
+  color: rgb(1, 62, 102);
+}
+.photo{
+  margin-top: 4.75em;
+}
+
+/* About Page CSS */
+
+.about{
+  display: flex;
+  flex-direction: column;
+}
+
+.icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.react{
+  width: 15em;
+  height: 15em;
+  margin-top: 50px;
+}
+.django{
+  width: 20em;
+  height: 20em;
+}
+
+.plus{
+  margin-top: 50px;
+  color: rgb(1, 62, 102);
+  font-size: 15em;
+}
+
+.welcome{
+  color: rgb(1, 35, 58);
+  font-size: 3em;
+  text-align: justify;
+  margin:5%;
+}
+
+.introduction{
+  font-size: 1.5em;
+  color: rgb(1, 62, 102);
+  text-align: justify;
+  margin:5%;
+
+}
+
+.details{
+  display: flex;
+  flex-direction: column;
+
+}
+/* Projects CSS */
+
+.projects-header{
+  color: rgb(1, 35, 58);
+  font-size: 3em;
+  text-align: center;
+  margin:5%;
+  text-decoration: underline;
+  text-underline-offset: .5em;
+}
+.projects-body{
+  font-size: 1.2em;
+  color: rgb(1, 62, 102);
+  margin:5%;
+}
+.project-list{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  list-style-type: decimal;
+
+}
+
+.project-list>li{
+  margin: 1.5em 3em;
+}
+.project-list>li>a{
+  text-decoration: none;
+  color: rgb(1, 35, 58);
+}
+
+.project-list>li>a>span{
+  background-color:rgb(1, 62, 102);
+  color: #fff;
+  padding: .2em;
+  border-radius: 5px;
+}
+
+/* Contact CSS */
+
+.contacts{
+  color: rgb(1, 35, 58);
+  font-size: 3em;
+  text-align: center;
+  margin:5%;
+  text-decoration: underline;
+  text-underline-offset: .5em;
+}
+
+.phone, .email, .linkedin{
+  font-size: 1.2em;
+  color: rgb(1, 62, 102);
+  margin:5%;
+  text-align: center;
+}
+
+/* Blog CSS */
+
+.myblogs{
+  color: rgb(1, 35, 58);
+  font-size: 3em;
+  text-align: center;
+  margin:0 5%;
+  text-decoration: underline;
+  text-underline-offset: .5em;
+}
+.title{
+  color: rgb(1, 35, 58);
+  font-size: 2.5em;
+  text-align: center;
+  margin:5%;
+
+}
+
+.body, .date, .author{
+  font-size: 1.2em;
+  color: rgb(1, 62, 102);
+  margin: 1% 5%;
+  text-align: justify;
+}
+
+.top{
+  display: flex;
+  flex-direction: row;
+}
+
+.date>span{
+  color: orangered;
+  font-weight: 900;
+}
+.author>span{
+  color: rgb(25, 32, 0);
+  font-weight: 900;
+}
